@@ -4,8 +4,8 @@ from threading import Thread
 
 import pika
 
-from rabbit_broker.basic_rabbit_client import BasicRabbitClient
-from rabbit_broker import std_info
+from broker.basic_rabbit_client import BasicRabbitClient
+from broker import std_info
 
 logging_logger = logging.getLogger(__name__)
 

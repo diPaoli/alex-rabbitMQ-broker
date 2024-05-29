@@ -1,6 +1,12 @@
 <html>
 <h1>RabbitMQ Handler for Python - by Alex diPaoli</h1>
 
+<p>
+Alex RabbitMQ broker is a wrapper with a few out-of-the-box features. Use at will. Just, please, mention the author using the gitHub user link: <a href="https://github.com/diPaoli">https://github.com/diPaoli</a>
+
+;)
+</p>
+
 <h2>Instalation</h2>
 <p>
 Add this requirement to your project: </p>
@@ -102,10 +108,32 @@ As you see in this example, you can handle <code>basic_ack</code> or <code>basic
 <h2>Retry Workflow Chart</h2>
 <img src="fluxo_retry.jpeg"></img>
 
+<br>
+<br>
 
+<h1><a href='https://raw.githubusercontent.com/diPaoli/alex-rabbitMQ-broker/master/LICENSE'>License Document</a>
+</h1>
 
+<p>MIT License
 
+Copyright (c) 2024 Alexandre di Paoli
 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</p>
 </html>

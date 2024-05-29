@@ -5,7 +5,7 @@ import pika
 from pika.adapters.blocking_connection import BlockingChannel
 from retry import retry
 
-from rabbit_broker import std_info
+from broker import std_info
 
 
 logging_logger = logging.getLogger(__name__)

@@ -1,6 +1,6 @@
-from rabbit_broker.publisher import RabbitPublisher
-from rabbit_broker.consumer import BasicMessage, RabbitConsumer
-from rabbit_broker import std_info
+from broker.publisher import RabbitPublisher
+from broker.consumer import BasicMessage, RabbitConsumer
+from broker import std_info
 
 
 class RetryPublisher():

@@ -1,5 +1,5 @@
-from rabbit_broker.consumer import BasicMessage, RabbitConsumer
-from rabbit_broker.retry_publisher import RetryPublisher
+from broker.consumer import BasicMessage, RabbitConsumer
+from broker.retry_publisher import RetryPublisher
 
 
 def handle_message(message: BasicMessage):
@@ -16,6 +16,6 @@ consumer = RabbitConsumer(
     queue = "ERIK_example_queue",
     task=handle_message,
     use_retry = True,
-    auto_acknowledge=False    
+    auto_acknowledge=False
     )
 consumer.consume()

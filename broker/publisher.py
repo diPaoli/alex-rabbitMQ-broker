@@ -2,7 +2,7 @@ import logging
 
 from pika import BasicProperties
 
-from rabbit_broker.basic_rabbit_client import BasicRabbitClient
+from broker.basic_rabbit_client import BasicRabbitClient
 
 
 logging_logger = logging.getLogger(__name__)

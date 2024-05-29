@@ -11,25 +11,20 @@ HERE = path.abspath(path.dirname(__file__))
 
 # This call to setup() does all the work
 setup(
-    name="pulsus-erik",
+    name="alex-rabbitMQ-broker",
     version="0.2.0",
-    description="RabbitMQ Handler for Python",
-    long_description="RabbitMQ Handler for Python",
+    description="RabbitMQ Handler for Python - by diPaoliAlex",
+    long_description="RabbitMQ Handler for Python - by diPaoliAlex",
     long_description_content_type="text/markdown",
-    author="Alexandre Santos",
-    license="Pulsus",
+    author="Alexandre Paulo",
+    license="MIT License",
     classifiers=[
         "Intended Audience :: Developers",
-        "License :: Other/Proprietary :: Pulsus",
-        "Programming Language :: Python",
-        "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.6",
-        "Programming Language :: Python :: 3.7",
-        "Programming Language :: Python :: 3.8",
+        "License :: Other/Proprietary :: diPaoliAlex",
         "Programming Language :: Python :: 3.9",
         "Operating System :: OS Independent"
     ],
-    packages=['rabbit_broker'],
+    packages=['broker'],
     include_package_data=True,
     install_requires=['pika','retry']
 )

@@ -1,4 +1,4 @@
-from rabbit_broker.publisher import RabbitPublisher
+from broker.publisher import RabbitPublisher
 
 msg = "Message example using ERIK!"
 
